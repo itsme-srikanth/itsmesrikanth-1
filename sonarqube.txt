@@ -1,0 +1,29 @@
+# This is an example deployment script for a web application
+
+def build():
+    print("Building the application...")
+    # Code for building the application, compiling code, bundling assets, etc.
+    print("Build completed successfully.")
+
+def test():
+    print("Running tests...")
+    # Code for running automated tests
+    print("All tests passed.")
+
+def deploy():
+    print("Deploying the application...")
+    # Code for deploying the application to production servers
+    print("Deployment completed successfully.")
+
+def rollback():
+    print("Rolling back the deployment...")
+    # Code for rolling back the deployment in case of issues
+    print("Rollback completed successfully.")
+
+def main():
+    build()
+    test()
+    deploy()
+
+if __name__ == "__main__":
+    main()
